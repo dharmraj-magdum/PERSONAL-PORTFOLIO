@@ -13,7 +13,7 @@
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/1826d4486b.js" crossorigin="anonymous"></script>
     <!-- // -->
-    <script src="PersonalPortfolio.js"></script>
+    <script src="PersonalPortfolio.js" defer></script>
     <!-- // -->
     <title>PERSONAL PORTFOLIO DKM</title>
 </head>
@@ -43,15 +43,17 @@
         </div>
     </section>
     <!-- ===========Portfolio========= -->
-    <section id="portfolio_section">
-        <div class="container">
-            <h1>My Work</h1>
-            <h2 id="subtitle">HTML,CSS and JS Simple Projects</h2>
+    <section id="portfolio_section" class="">
+        <div class="container ">
+            <h1 class="sec-title animate">My Work</h1>
+            <h2 class="category animate">HTML,CSS and JS Simple Projects</h2>
             <div class="work_list">
-                <div class="work">
-                    <h3 class="title">ToDo List App</h3>
-                    <img src="assets/todolist-screenshot.png" alt="work screenshot">
+                <div class="work animate">
+                    <div class="image">
+                        <img src="assets/todolist-screenshot.png" alt="work screenshot">
+                    </div>
                     <div class="desc">
+                        <h3 class="title">ToDo List App</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim praesentium accusantium harum
                             sit? Voluptatum aut
                             autem iusto nisi consequatur laborum.</p>
@@ -59,10 +61,12 @@
                                 class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
-                <div class="work">
-                    <h3 class="title">Digital Clock App</h3>
-                    <img src="assets/digital-clock-screenshot.png" alt="work screenshot">
+                <div class="work animate">
+                    <div class="image">
+                        <img src="assets/digital-clock-screenshot.png" alt="work screenshot">
+                    </div>
                     <div class="desc">
+                        <h3 class="title">Digital Clock App</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim praesentium accusantium harum
                             sit? Voluptatum aut
                             autem iusto nisi consequatur laborum.</p>
@@ -70,10 +74,12 @@
                                 class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
-                <div class="work">
-                    <h3 class="title">Calculator App</h3>
-                    <img src="assets/calculator-screenshot.png" alt="work screenshot">
+                <div class="work animate">
+                    <div class="image">
+                        <img src="assets/calculator-screenshot.png" alt="work screenshot">
+                    </div>
                     <div class="desc">
+                        <h3 class="title">Calculator App</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim praesentium accusantium harum
                             sit? Voluptatum aut
                             autem iusto nisi consequatur laborum.</p>
@@ -81,10 +87,12 @@
                                 class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
-                <div class="work">
-                    <h3 class="title">Peek Through Hole js-css fun</h3>
-                    <img src="assets/peek-thr-hole-screenshot.png" alt="work screenshot">
+                <div class="work animate">
+                    <div class="image">
+                        <img src="assets/peek-thr-hole-screenshot.png" alt="work screenshot">
+                    </div>
                     <div class="desc">
+                        <h3 class="title">Peek Through Hole js-css fun</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim praesentium accusantium harum
                             sit? Voluptatum aut
                             autem iusto nisi consequatur laborum.</p>
@@ -92,10 +100,12 @@
                                 class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
-                <div class="work">
-                    <h3 class="title">Guess RGB Game</h3>
-                    <img src="assets/guess-clr-game-screenshot.png" alt="work screenshot">
+                <div class="work animate">
+                    <div class="image">
+                        <img src="assets/guess-clr-game-screenshot.png" alt="work screenshot">
+                    </div>
                     <div class="desc">
+                        <h3 class="title">Guess RGB Game</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim praesentium accusantium harum
                             sit? Voluptatum aut
                             autem iusto nisi consequatur laborum.</p>
@@ -104,12 +114,27 @@
                     </div>
                 </div>
             </div>
-            <h2 id="subtitle">MERN STACK Projects</h2>
+            <h2 class="category animate">MERN STACK Projects</h2>
             <div class="work_list">
-                <div class="work">
-                    <h3 class="title">Social media App</h3>
-                    <img src="assets/dkgram-screenshot.png" alt="work screenshot">
+                <div class="work animate">
+                    <div class="image">
+                        <img src="assets/goalsetter-screenshot.png" alt="work screenshot">
+                    </div>
                     <div class="desc">
+                        <h3 class="title">Goal Setter</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim praesentium accusantium harum
+                            sit? Voluptatum aut
+                            autem iusto nisi consequatur laborum.</p>
+                        <a href="https://goal-setter-zia0.onrender.com" target="_blank">go visit
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work animate">
+                    <div class="image">
+                        <img src="assets/dkgram-screenshot.png" alt="work screenshot">
+                    </div>
+                    <div class="desc">
+                        <h3 class="title">Social media App</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim praesentium accusantium harum
                             sit? Voluptatum aut
                             autem iusto nisi consequatur laborum.</p>
@@ -117,10 +142,12 @@
                             <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
-                <div class="work">
-                    <h3 class="title">Image Generator AI</h3>
-                    <img src="assets/image-gen-ai-screenshot.png" alt="work screenshot">
+                <div class="work animate">
+                    <div class="image">
+                        <img src="assets/image-gen-ai-screenshot.png" alt="work screenshot">
+                    </div>
                     <div class="desc">
+                        <h3 class="title">Image Generator AI</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim praesentium accusantium harum
                             sit? Voluptatum aut
                             autem iusto nisi consequatur laborum.</p>
@@ -128,10 +155,12 @@
                                 class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
-                <div class="work">
-                    <h3 class="title">E-Commence App</h3>
-                    <img src="assets/work-1.png" alt="work screenshot">
+                <div class="work animate">
+                    <div class="image">
+                        <img src="assets/work-1.png" alt="work screenshot">
+                    </div>
                     <div class="desc">
+                        <h3 class="title">E-Commence App</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim praesentium accusantium harum
                             sit? Voluptatum aut
                             autem iusto nisi consequatur laborum.</p>

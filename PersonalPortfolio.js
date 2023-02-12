@@ -12,5 +12,25 @@ function openTab(cur, tabname) {
 	const selected_tab = document.getElementById(tabname);
 	selected_tab.classList.add("active_tab");
 }
+
+//observer object can identify which ele is on screen visible to user
+const observer = new IntersectionObserver((entries) => {
+	entries.forEach((entry) => {
+		// console.log(entry);
+		if (entry.isIntersecting) {
+			entry.target.classList.add("show");
+		} else {
+			entry.target.classList.remove("show");
+		}
+	});
+});
+//we have to say observer to observe fro these ele
+const animatedEles = document.querySelectorAll(".animate");
+// console.log(animatedEles);
+animatedEles.forEach((ele) => {
+	// console.log(ele);
+	observer.observe(ele);
+});
+
 ///////////////////
 console.log("script is running Good!!");

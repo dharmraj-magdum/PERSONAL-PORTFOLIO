@@ -31,6 +31,7 @@ body {
 	font-weight: normal;
 	background-color: #363434;
 	color: #ffff;
+	overflow-x: hidden;
 }
 /* ===============header */
 header {
@@ -158,14 +159,14 @@ header {
 .work_list .work {
 	display: flex;
 	justify-content: space-between;
-	height: 11rem;
+	height: 13rem;
 	border-radius: 0.5rem;
 	/* background-color: #888; */
 	/* border: 1px solid #ccc; */
-	margin: 0.6rem auto;
+	margin: 0.6rem 0;
 }
 .work_list .work .image {
-	--width: 35%;
+	--width: 30%;
 	height: 100%;
 	min-width: var(--width);
 	width: var(--width);
@@ -179,6 +180,7 @@ header {
 	object-position: center;
 	object-fit: contain;
 }
+
 .desc {
 	display: flex;
 	flex-direction: column;
@@ -194,15 +196,20 @@ header {
 	font-size: 0.8rem;
 }
 .desc a {
+	color: #999;
 	margin-top: 2rem;
 	text-align: center;
 	font-size: 1.2rem;
-	border: 1px solid #eee;
+	border: 1px solid #aaa;
 	padding: 0.2rem 0.4rem;
 	border-radius: 5px;
 }
+.desc a:hover {
+	color: #fff;
+	border-color: #ddd;
+}
 .desc a i {
-	color: #aaaaff;
+	color: inherit;
 	margin-left: 0.5rem;
 }
 /* =============about ============ */
@@ -299,7 +306,7 @@ header {
 	/* transition-property: all;
 	transition-delay: 0.2s;
 	transition-duration: 0.4s; */
-	transition: all 0.6s linear;
+	transition: all 0.4s linear;
 }
 .sec-title {
 	transform: translateX(0%) translateY(-80px);

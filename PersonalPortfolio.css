@@ -41,7 +41,6 @@ header {
 	width: 100%;
 	height: 3rem;
 	display: flex;
-	justify-content: flex-end;
 	background-color: #888;
 	z-index: 10;
 	/* border: 1px solid #eee; */
@@ -133,8 +132,7 @@ header {
 	margin: auto;
 	padding-top: 3rem;
 }
-#portfolio_section .container {
-}
+
 #portfolio_section .container h1 {
 	font-size: 2rem;
 	/* color: #fff; */
@@ -186,7 +184,7 @@ header {
 	flex-direction: column;
 	align-items: start;
 	padding: 0.2rem 1rem 0.5rem 1.5rem;
-	transition: all 0.5;
+	transition: all 0.5s linear;
 }
 .desc .title {
 	font-size: 1.6rem;
@@ -325,3 +323,7 @@ header {
 	opacity: 1 !important;
 	filter: blur(0) !important;
 }
+
+/* /////////////////////////////////////////// */
+/* =============================================================== */
+/* media query */

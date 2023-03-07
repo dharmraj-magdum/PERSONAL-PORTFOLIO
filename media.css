@@ -15,6 +15,7 @@
 		overflow-x: hidden;
 		width: 100%;
 		padding: 0.5rem 1rem;
+		margin: 0;
 	}
 	#menu {
 		width: 100%;
@@ -65,9 +66,14 @@
 	}
 	/* =============portfolio /Projectcs ============ */
 	#portfolio_section {
-		width: 95%;
+		width: 97%;
 		margin: 0 auto;
-		padding-top: 1rem;
+		padding: 1rem 0.5rem;
+	}
+	#portfolio_section .container h1 {
+		margin: 1.2rem auto;
+		font-size: 2.2rem;
+		padding: 0.5rem;
 	}
 	#portfolio_section h2 {
 		margin: 0.5rem auto;

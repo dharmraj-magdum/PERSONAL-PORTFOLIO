@@ -36,13 +36,15 @@ body {
 /* ===============header */
 header {
 	position: fixed;
-	top: 0;
-	left: 0;
+	top: 0px;
+	left: 0px;
 	width: 100%;
 	height: 3rem;
 	display: flex;
 	background-color: #888;
 	z-index: 10;
+	margin: 0;
+	padding: 0;
 	/* border: 1px solid #eee; */
 	box-shadow: 0 10px 5px 5px rgba(0, 0, 0, 0.4);
 }
@@ -299,27 +301,17 @@ header {
 /* ////////////////Animation on scroll */
 .animate {
 	opacity: 0;
-	filter: blur(9px);
-	transform: translateX(-90%);
+	filter: blur(5px);
 	/* transition-property: all;
 	transition-delay: 0.2s;
 	transition-duration: 0.4s; */
-	transition: all 0.4s linear;
+	transition: all 0.3s linear;
 }
 .sec-title {
-	transform: translateX(0%) translateY(-80px);
-	filter: blur(4px);
-}
-.work:nth-child(odd) {
-	transform: translateX(90%);
-}
-.work {
-	transition-delay: 0.2s;
+	filter: blur(5px);
 }
 /* ////// */
 .show {
-	/* //important bcz od sudo selector causing self rule */
-	transform: translateX(0) translateY(0) !important;
 	opacity: 1 !important;
 	filter: blur(0) !important;
 }
